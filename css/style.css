@@ -1,0 +1,63 @@
+
+.timer {
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+body{
+    background: url("../images/fon.jpg") no-repeat center/cover;
+    height: 100vh;
+
+}
+.timer-btns {
+    margin-top: 20px;
+
+}
+
+.start-btn {
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(243, 238, 238, 0.24), 0 17px 50px 0 rgba(221, 216, 216, 0.19);
+}
+.start-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stop-btn {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(243, 238, 238, 0.24), 0 17px 50px 0 rgba(221, 216, 216, 0.19);
+}
+.stop-btn:hover {
+    background-color: #bf5757;
+    color: white;
+}
+
+.reset-btn {
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(243, 238, 238, 0.24), 0 17px 50px 0 rgba(221, 216, 216, 0.19);
+}
+.reset-btn:hover {
+    background-color: #b5b1b1;
+    color: white;
+}
+
+.btn{
+    padding: 15px 25px;
+    border: none;
+}
+.timer p{
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
